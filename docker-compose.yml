@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  webmirror-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: webmirror-worker
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - MAX_CRAWL_CONCURRENCY=4
+      - JOB_TIMEOUT_MS=60000
+      - RETENTION_HOURS=24
+    volumes:
+      - webmirror_storage:/app/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4096M
+        reservations:
+          cpus: '0.5'
+          memory: 1024M
+
+volumes:
+  webmirror_storage:
+    driver: local

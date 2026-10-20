@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WebMirror</string>
+    <string name="app_tagline">High-Fidelity Website Cloning Engine</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_progress">Live Progress</string>
+    <string name="nav_results">Results &amp; QA</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="enter_url_hint">https://example.com</string>
+    <string name="paste_url">Paste</string>
+    <string name="start_cloning">Start Cloning</string>
+    <string name="config_crawl">Configure Crawl</string>
+    <string name="recent_jobs">Recent Cloning Projects</string>
+    <string name="no_recent_jobs">No cloning jobs yet. Enter a URL above to start cloning.</string>
+
+    <string name="status_connected">Backend Connected</string>
+    <string name="status_disconnected">Backend Offline</string>
+    <string name="status_checking">Connecting to Backend…</string>
+
+    <string name="fidelity_score">Fidelity Score</string>
+    <string name="download_zip">Download ZIP Export</string>
+    <string name="retry_failed_assets">Retry Failed Assets</string>
+    <string name="open_clone_preview">Interactive Preview</string>
+    <string name="cancel_job">Cancel Crawl</string>
+
+    <string name="stage_connecting">Connecting</string>
+    <string name="stage_rendering">Rendering</string>
+    <string name="stage_discovering">Discovering</string>
+    <string name="stage_extracting">Extracting</string>
+    <string name="stage_rewriting">Rewriting</string>
+    <string name="stage_building">Building</string>
+    <string name="stage_testing">Testing</string>
+    <string name="stage_packaging">Packaging</string>
+</resources>

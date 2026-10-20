@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Backgrounds -->
+    <color name="bg_dark">#0D0F14</color>
+    <color name="bg_surface">#161922</color>
+    <color name="bg_surface_elevated">#1F2330</color>
+    <color name="bg_card">#1A1D28</color>
+    <color name="bg_input">#12141C</color>
+
+    <!-- Primaries & Accents -->
+    <color name="primary_neon">#8A5CF6</color> <!-- Neon Violet -->
+    <color name="primary_variant">#6D28D9</color>
+    <color name="secondary_teal">#06B6D4</color> <!-- Cyan Accent -->
+    <color name="accent_glow">#3B82F6</color>
+
+    <!-- Status Colors -->
+    <color name="status_success">#10B981</color> <!-- Emerald Green -->
+    <color name="status_warning">#F59E0B</color> <!-- Amber -->
+    <color name="status_error">#EF4444</color>   <!-- Crimson -->
+    <color name="status_info">#3B82F6</color>
+
+    <!-- Text & Borders -->
+    <color name="text_primary">#F3F4F6</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="border_subtle">#2D3243</color>
+    <color name="border_active">#8A5CF6</color>
+    <color name="divider_color">#232838</color>
+
+    <!-- Terminal/Log Colors -->
+    <color name="terminal_bg">#090A0F</color>
+    <color name="terminal_text">#10B981</color>
+    <color name="terminal_warn">#FBBF24</color>
+    <color name="terminal_error">#F87171</color>
+</resources>
